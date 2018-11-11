@@ -1,0 +1,18 @@
+
+style.css#title {
+    color:blue;
+}
+body {
+    margin: 0px;
+}
+
+#header {
+    height: 230px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    padding: 100px;
+}
