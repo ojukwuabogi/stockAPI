@@ -17,7 +17,7 @@ $(document).on('click', '.stocks', function(){
    
     $.get(`https://api.iextrading.com/1.0/stock/${stockName}/quote`, function(data){
         console.log(data);
-        $("#output").html(data);
+        $(#output).html(data);
         // append the information to html
     });
 });
