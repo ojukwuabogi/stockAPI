@@ -1,29 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Stocks App</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Stocks</title>
+
+  
+  <link href="reset.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+  <link rel="stylesheet" href="">
+  <link href="style.css" rel="stylesheet">
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  
 </head>
+
 <body>
-    <div id="header">
-            <h1 id="title">Peter's Stocks</h1>
-    </div>
-    <div class="container">
-        <div id="stocks"></div>
-        <input type="text" id="stockName" placeholder="stock name">
-        <button id="submit"> submit </button>
-    </div>
+  <header>
+    <hr>
+    <h1><center>Peter Stock API </center></h1> 
    
-  // <div id="output"> </div>
+    <hr>
+  </header>
+  <main>
+    
+  <div id="container">
+    <div id="div1">
+        <h2> STOCKS Symbol</h2> 
+        <hr>
+        <div id="buttons"></div>
+        <hr>
+          <div  id="div2">
+            
+            
+            <hr>             
+          </div>
+      </div>     
+      
+      <div  id="div3">
+        <br>
+        <form id="stock-form">
+          
+          <label for="stock-input">Please enter Stock Symbol</label> <input type="text" id="stock-input">
+          
+          <p align="center"><input id="find-stock" type="submit" value="Stock Search Result"></p>
+        </form>
+       
+      </div>       
+      <div id="stock-view"></div>
+  </div>
+  </main>
 
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="index.js"></script>
+  <script type="text/javascript" src="app.js"></script>
 </body>
+
 </html>
-
-
